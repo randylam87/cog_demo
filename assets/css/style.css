@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Start Navbar */
+#header {
+  border-bottom: 1px solid #dddddd;
+}
+
+#header-buttons {
+  margin-right: 1em;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.navbar-brand::after {
+  content: 'My Cog Health';
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  white-space: nowrap;
+}
+/* End Navbar */
+
+/* Start Sidebar */
+.menu {
+  width: 14em;
+  padding: 1em;
+  white-space: nowrap;
+  border-right: 1px solid #dddddd;
+}
+/* End Sidebar */
+
+/* Start Main Content */
+#main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#content {
+  display: flex;
+  width: 100%;
+}
+
+#sections-container {
+  width: 100%;
+  padding: 2em;
+}
+
+.card-header {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.card-header-title::after {
+  content: '';
+  background-color: #dddddd;
+  height: 1px;
+  width: 100%;
+  margin: 0em 1em;
+}
+
+.card-header-subtitle {
+  font-size: 0.75em;
+}
+
+.options-controller {
+  display: flex;
+  direction: column;
+  justify-content: space-evenly;
+}
+
+#options-menu {
+  border-left: 1px solid #dddddd;
+  align-self: flex-end;
+  height: 100%
+}
+
+.card-header {
+  align-items: center;
+}
+
+.options-btn {
+  margin-bottom: 0.5em;
+}
+/* End Main Content */
+
+.icon {
+  padding: 1em;
+}
+.fa-exchange-alt {
+  transform: rotate(90deg);
+}
+
+.active {
+  color: #5fdba7;
+}
